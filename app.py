@@ -9,7 +9,7 @@ import re
 app = Flask(__name__)
 
 # Separate test database: does not use your live database.
-DB_NAME = "parking_test.db"
+DB_NAME = "parking.db"
 
 SLOTS_PER_BASEMENT = 5
 BASEMENTS = ["Basement 1", "Basement 2"]
